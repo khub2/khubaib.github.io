@@ -1,0 +1,106 @@
+
+header img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+header {
+background-color: #003366;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+header h1 {
+font-size: 3rem;
+margin-bottom: 10px;
+}
+
+header h2 {
+font-size: 1.5rem;
+}
+
+main {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.education {
+margin-bottom: 40px;
+}
+
+.education h3 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+.education li {
+margin-bottom: 5px;
+}
+.skills {
+margin-bottom: 40px;
+}
+
+.skills h3 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+.skills ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.skills li {
+flex: 1 0 45%;
+margin-bottom: 10px;
+}
+.projects {
+margin-bottom: 40px;
+}
+
+.projects h3 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+.projects li {
+margin-bottom: 5px;
+}
+footer {
+background-color: #eee;
+color: #333;
+padding: 20px;
+text-align: center;
+}
+
+footer p {
+margin-bottom: 10px;
+}
+/* Here I have use media query that will change its dimension according to the device */
+@media screen and (max-width: 600px) {
+main {
+padding: 10px;
+}
+
+.skills ul {
+flex-direction: column;
+}
+
+.skills li {
+flex: none;
+width: 100%;
+}
+}
