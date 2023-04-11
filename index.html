@@ -1,67 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Website Page</title>
- <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume | Muhammad Khubaib Cheema</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>My website logo</h1>
-    <img src="logo.jpg" alt="This is time taking">
     <header>
-      <h1>cheema website</h1>
-      <h1>Below is navigation bar that is created in header</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Downloads</a></li>
-          <li><a href="#">About Univerity</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <p>This is website and below there is some introduction</p> <br>
+      <img src="kc.jpg" alt="My Profile Picture">
+      <h1>Muhammad Khubaib Cheema</h1>
+      <h2>Designation|Front-End Web Developer</h2>
     </header>
     <main>
-      <h2>Website content</h2>
-      <p>This is the main content of my web page.</p>
-      <p><mark>Highlighted text is there</mark></p>
-      <p>The current time is: <time>2023-03-27 13:30:00</time></p>
-      <h1>Here is my canvas</h1>
-        <canvas id="myCanvas" width="200" height="200"></canvas>
+      <section class="education">
+        <h3>Education</h3>
+        <ul>
+          <li>Bachelor of Computer Science - NUST Balochistan Campus (NBC-Quetta) - 3.13</li>
+          <li>Matric - Suffa Group of Schools - 867/1100 (2017)</li>
+          <li>Intermediate - Govt. Islamia College Civil Lines - 868/1100 (2019)</li>
+          <li>Bachelor of Science in Computer Science(BSCS) - NUST Balochistan Campus - 3.13/4.00(Currently) (2023)</li>
+        </ul>
+      </section>
 
-      <script>
-       var canvas = document.getElementById("myCanvas");
-       var ctx = canvas.getContext("2d");
-       ctx.fillStyle = "red";
-       ctx.fillRect(0, 0, 200, 200);
-       </script>
-       <h1>Here I add audio to the code</h1>
-      <audio controls>
-        <source src="naat.mp3" type="audio">
-      </audio> <br>
-      <h1>Here I add Video to the code</h1> <br>
-      <video width="320" height="240" controls>
-        <source src="Approval.mp4" type="video">
-      </video> <br>
-      <h1>Here I add form to the code</h1>
-      <form action="submit-form.php" method="post">
-        <label for="name">Name:</label> <br>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Phone_number:</label> <br>
-        <input type="Phone_number" id="Phone_number" name="Phone_number" required> <br>
-        <input type="submit" value="Submit">
-      </form>
+      <section class="skills">
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>Agile and waterfall methods</li>
+          <li>Cisco packet tracer</li>
+          <li>Front-end web development - HTML, CSS, JavaScript</li>
+          <li>Prototyping</li>
+          <li>Verilog programming</li>
+          <li>Ms word, Ms power point, Modelsim</li>
+        </ul>
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Communication skills</li>
+          <li>Self-management skills</li>
+          <li>Human resource management</li>
+          <li>Motivational speaking</li>
+          <li>Empathy</li>
+          <li>Curiosity</li>
+          <li>Punctual and responsible</li>
+        </ul>
+      </section>
+
+      <section class="projects">
+        <h3>Projects</h3>
+        <ul>
+          <li>Optimization Of Critical Path Delays in 16-bit RISC Processor(FYP)</li>
+          <li>Responsive Resume Web Page (using HTML and CSS)</li>
+        </ul>
+      </section>
     </main>
-    <!--[if lte IE 9]>
-      <p>This website may not display correctly on Internet Explorer versions older than 10.</p>
-    <![endif]-->
-    <h1>Here I add footer to the code</h1>
+
     <footer>
-      <p>&copy; 2023 My Website. All rights reserved.</p>
-      <ul>
-        <li><a href="#">Google</a></li>
-        <li><a href="#">Tiktok</a></li>
-        <li><a href="#">facebook</a></li>
-      </ul>
+      <p>Cell: +923234524823 | Email: mkhubaib.bscs19nbc@student.nust.edu.pk</p>
+      <p>Address: 1538/23 Siddiqui Road, Cinema Stop, Nishat Colony Lahore Cantt. Lahore, Pakistan</p>
     </footer>
   </body>
 </html>
