@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Page</title>
+ <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>My website logo</h1>
+    <img src="logo.jpg" alt="This is time taking">
+    <header>
+      <h1>cheema website</h1>
+      <h1>Below is navigation bar that is created in header</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Downloads</a></li>
+          <li><a href="#">About Univerity</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <p>This is website and below there is some introduction</p> <br>
+    </header>
+    <main>
+      <h2>Website content</h2>
+      <p>This is the main content of my web page.</p>
+      <p><mark>Highlighted text is there</mark></p>
+      <p>The current time is: <time>2023-03-27 13:30:00</time></p>
+      <h1>Here is my canvas</h1>
+        <canvas id="myCanvas" width="200" height="200"></canvas>
+
+      <script>
+       var canvas = document.getElementById("myCanvas");
+       var ctx = canvas.getContext("2d");
+       ctx.fillStyle = "red";
+       ctx.fillRect(0, 0, 200, 200);
+       </script>
+       <h1>Here I add audio to the code</h1>
+      <audio controls>
+        <source src="naat.mp3" type="audio">
+      </audio> <br>
+      <h1>Here I add Video to the code</h1> <br>
+      <video width="320" height="240" controls>
+        <source src="Approval.mp4" type="video">
+      </video> <br>
+      <h1>Here I add form to the code</h1>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label> <br>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Phone_number:</label> <br>
+        <input type="Phone_number" id="Phone_number" name="Phone_number" required> <br>
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+    <!--[if lte IE 9]>
+      <p>This website may not display correctly on Internet Explorer versions older than 10.</p>
+    <![endif]-->
+    <h1>Here I add footer to the code</h1>
+    <footer>
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+      <ul>
+        <li><a href="#">Google</a></li>
+        <li><a href="#">Tiktok</a></li>
+        <li><a href="#">facebook</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
